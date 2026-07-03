@@ -65,24 +65,24 @@ header{
 .nav a.cta-mini:hover{background:var(--violet-deep)}
 
 /* ---------- Hero ---------- */
-.hero{padding:72px 0 56px}
+.hero{padding:44px 0 40px}
 .eyebrow{
-  display:inline-block;font-size:.78rem;font-weight:600;letter-spacing:.14em;
+  display:inline-block;font-size:.72rem;font-weight:600;letter-spacing:.12em;
   text-transform:uppercase;color:var(--violet-deep);
   border:1px solid rgba(124,92,252,.4);border-radius:999px;
-  padding:5px 14px;margin-bottom:20px;background:var(--violet-glow);
+  padding:4px 12px;margin-bottom:16px;background:var(--violet-glow);
 }
 .hero h1{
-  font-size:clamp(1.9rem,5.2vw,3.15rem);
-  font-weight:800;line-height:1.14;letter-spacing:-.015em;
-  max-width:700px;
+  font-size:clamp(1.65rem,4.2vw,2.5rem);
+  font-weight:800;line-height:1.16;letter-spacing:-.015em;
+  max-width:620px;
 }
 .hero h1 em{font-style:normal;color:var(--violet)}
 .hero p.lead{
-  margin-top:18px;max-width:580px;
-  font-size:1.06rem;color:var(--ink-60);
+  margin-top:14px;max-width:560px;
+  font-size:.98rem;color:var(--ink-60);
 }
-.hero-ctas{margin-top:30px;display:flex;gap:14px;flex-wrap:wrap}
+.hero-ctas{margin-top:24px;display:flex;gap:14px;flex-wrap:wrap}
 .btn{
   display:inline-flex;align-items:center;gap:9px;
   font-family:'Inter',sans-serif;font-weight:600;font-size:.95rem;
@@ -99,13 +99,13 @@ header{
 
 /* ---------- Firma: celda que se recalcula ---------- */
 .cell-demo{
-  margin-top:52px;
+  margin-top:36px;
   background:var(--white);
   border:1px solid rgba(20,18,43,.1);
   border-radius:16px;
   overflow:hidden;
   box-shadow:0 18px 48px rgba(20,18,43,.1);
-  max-width:640px;
+  max-width:600px;
 }
 .cell-bar{
   display:flex;align-items:center;gap:10px;
@@ -117,9 +117,9 @@ header{
   padding:4px 10px;border-radius:6px;letter-spacing:.06em;
 }
 .cell-formula{font-size:.8rem;color:rgba(242,241,250,.75);font-family:monospace}
-.cell-body{padding:26px 24px;display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:center}
+.cell-body{padding:20px 22px;display:grid;grid-template-columns:1fr auto 1fr;gap:12px;align-items:center}
 .cell-side{text-align:center}
-.cell-num{font-family:'Montserrat',sans-serif;font-weight:800;font-size:clamp(1.7rem,4.5vw,2.4rem);line-height:1}
+.cell-num{font-family:'Montserrat',sans-serif;font-weight:800;font-size:clamp(1.4rem,3.8vw,1.9rem);line-height:1}
 .cell-num.old{color:var(--ink-30);text-decoration:line-through;text-decoration-thickness:3px;text-decoration-color:var(--amber)}
 .cell-num.new{color:var(--violet)}
 .cell-label{font-size:.78rem;font-weight:500;color:var(--ink-60);margin-top:6px;text-transform:uppercase;letter-spacing:.08em}
@@ -130,15 +130,15 @@ header{
 }
 
 /* ---------- Bloque estrella: ¿Sigues haciendo esto manualmente? ---------- */
-.manual{background:var(--ink);color:var(--mist);padding:64px 0}
-.manual-inner{display:grid;grid-template-columns:1.1fr 1fr;gap:44px;align-items:center}
-.manual h2{font-size:clamp(1.5rem,3.6vw,2.15rem);font-weight:800;line-height:1.2;color:#fff}
-.manual p.sub{margin-top:14px;color:rgba(242,241,250,.72);max-width:460px}
-.manual .btn-primary{margin-top:26px}
-.manual-list{list-style:none;display:flex;flex-direction:column;gap:10px}
+.manual{background:var(--ink);color:var(--mist);padding:48px 0}
+.manual-inner{display:grid;grid-template-columns:1.1fr 1fr;gap:36px;align-items:center}
+.manual h2{font-size:clamp(1.35rem,3.2vw,1.85rem);font-weight:800;line-height:1.2;color:#fff}
+.manual p.sub{margin-top:12px;color:rgba(242,241,250,.72);max-width:460px;font-size:.94rem}
+.manual .btn-primary{margin-top:22px}
+.manual-list{list-style:none;display:flex;flex-direction:column;gap:8px}
 .manual-list li{
   background:var(--ink-soft);border:1px solid rgba(242,241,250,.1);
-  border-radius:10px;padding:13px 18px;font-size:.95rem;font-weight:500;
+  border-radius:10px;padding:10px 16px;font-size:.9rem;font-weight:500;
   display:flex;align-items:center;gap:12px;
 }
 .manual-list li .x{color:var(--amber);font-weight:700;font-size:1.05rem}
@@ -199,17 +199,17 @@ header{
 .pkg .p small{display:block;font-family:'Inter',sans-serif;font-weight:400;font-size:.74rem;color:rgba(242,241,250,.65);margin-top:2px}
 
 /* ---------- Secciones ---------- */
-section{padding:64px 0}
-.sec-head{margin-bottom:36px;max-width:620px}
-.sec-head h2{font-size:clamp(1.45rem,3.4vw,2rem);font-weight:800;letter-spacing:-.01em}
-.sec-head p{margin-top:10px;color:var(--ink-60)}
+section{padding:48px 0}
+.sec-head{margin-bottom:26px;max-width:620px}
+.sec-head h2{font-size:clamp(1.35rem,3vw,1.75rem);font-weight:800;letter-spacing:-.01em}
+.sec-head p{margin-top:8px;color:var(--ink-60);font-size:.95rem}
 
 /* ---------- Servicios (interactivo) ---------- */
 #servicios{background:var(--white)}
 .svc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
 .svc{
   border:1px solid rgba(20,18,43,.1);border-radius:14px;
-  padding:26px 24px;background:var(--mist);
+  padding:20px 20px;background:var(--mist);
   display:flex;flex-direction:column;text-align:left;
   cursor:pointer;font-family:'Inter',sans-serif;
   transition:transform .18s, box-shadow .18s, border-color .18s;
@@ -309,8 +309,9 @@ footer{
   .xp{grid-template-columns:1fr;gap:6px}
   .cell-body{grid-template-columns:1fr;gap:8px}
   .cell-arrow{transform:rotate(90deg)}
-  section{padding:48px 0}
-  .hero{padding:52px 0 44px}
+  section{padding:38px 0}
+  .hero{padding:36px 0 34px}
+  .manual{padding:38px 0}
 }
 </style>
 </head>
@@ -327,8 +328,8 @@ footer{
 <!-- ============ HERO ============ -->
 <section class="hero wrap" id="top">
   <span class="eyebrow reveal">Especialista en Soluciones Financieras y Automatización</span>
-  <h1 class="reveal">Ayudo a personas, emprendedores y pequeños negocios a <em>pagar sus impuestos correctamente</em>, mejorar sus finanzas y <em>automatizar sus procesos</em>.</h1>
-  <p class="lead reveal">Para que ahorres tiempo y dinero. Más de 8 años de experiencia en contabilidad corporativa, ahora al servicio de tu negocio y tu tranquilidad con el SAT.</p>
+  <h1 class="reveal">Impuestos <em>en regla</em>. Finanzas claras. Procesos <em>en minutos</em>.</h1>
+  <p class="lead reveal">Ayudo a personas, emprendedores y pequeños negocios a pagar sus impuestos correctamente, mejorar sus finanzas y automatizar sus procesos — para que ahorres tiempo y dinero.</p>
   <div class="hero-ctas reveal">
     <a class="btn btn-primary" href="#servicios">Ver servicios</a>
     <a class="btn btn-wa" href="https://wa.me/526648106124?text=Hola%20Cristian%2C%20quiero%20agendar%20un%20diagn%C3%B3stico%20gratuito." target="_blank" rel="noopener">💬 WhatsApp directo</a>
